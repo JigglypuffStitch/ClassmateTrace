@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "cticon"; /* Project id 4735075 */
+  src: url('iconfont.woff2?t=1731729518422') format('woff2'),
+       url('iconfont.woff?t=1731729518422') format('woff'),
+       url('iconfont.ttf?t=1731729518422') format('truetype');
+}
+
+.cticon {
+  font-family: "cticon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--_shezhi:before {
+  content: "\e609";
+}
+
+.icon-jiarubanji:before {
+  content: "\e605";
+}
+
+.icon-teaching-class-import:before {
+  content: "\e607";
+}
+
+.icon-qiehuanbanji:before {
+  content: "\e608";
+}
+
+.icon-a-weibiaoti-1_huaban1fuben110:before {
+  content: "\e606";
+}
+
+.icon-banjiguanli:before {
+  content: "\e604";
+}
+
+.icon-xiugai1:before {
+  content: "\e603";
+}
+
+.icon-xiugai:before {
+  content: "\e602";
+}
+
+.icon-jiahao:before {
+  content: "\e601";
+}
+
