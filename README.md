@@ -1,80 +1,76 @@
 
 # 同窗行迹
 
+# Deployment
 
-# 部署
-
-## 数据库
-
-<aside>
-
-  本项目的数据库采用MySQL
-
-</aside>
-
-- SQL源文件为dump-classmate_trace-202411181526.sql，建议使用MySQL8.0及以上的版本
-
-## 后端项目
+## Database
 
 <aside>
 
-  本项目的后端以csharp项目为主体，辅以java项目，运行本项目时需启动csharp项目和java项目
+  This project uses MySQL as its database.
 
 </aside>
 
-- 后端项目位于classmate_trace/BACK目录下
-- csharp文件夹下存放csharp后端项目，建议使用Visual Studio运行与调试
-- java文件夹下存放java后端项目，建议使用VSCode运行与调试
+- The SQL source file is `dump-classmate_trace-202411181526.sql`. It is recommended to use MySQL version 8.0 or higher.
 
-## 前端项目
+## Backend Project
 
 <aside>
 
-  本项目的前端为Vue项目
+  The backend of this project is primarily built with C# and supplemented by a Java project. Both the C# and Java projects need to be started to run the project.
 
 </aside>
 
-- 前端项目位于classmate_trace/FRONT目录下
-- 下载前端项目后，首先将web压缩包和node_modules压缩包解压，再将node_modules文件夹移动至web文件夹下，web文件夹即为完整的Vue前端项目，请按照web文件夹下的Markdown说明进行环境配置，建议使用VSCode运行与调试
+- The backend project is located in the `classmate_trace/BACK` directory.
+- The `csharp` folder contains the C# backend project, which is recommended to be run and debugged using Visual Studio.
+- The `java` folder contains the Java backend project, which is recommended to be run and debugged using VSCode.
 
-## 前后端连接
+## Frontend Project
 
 <aside>
 
-  本项目采取前后端分离开发的模式，前端项目、后端项目、数据库可以部署在同一本地，也可以分离部署，不同部署方式下的前后端连接与数据库连接方式有区别
+  The frontend of this project is a Vue application.
 
 </aside>
 
-### 本地部署
+- The frontend project is located in the `classmate_trace/FRONT` directory.
+- After downloading the frontend project, first extract the `web` and `node_modules` compressed files, then move the `node_modules` folder into the `web` folder. The `web` folder will then be the complete Vue frontend project. Please follow the Markdown instructions in the `web` folder for environment setup. It is recommended to use VSCode for running and debugging.
 
-- 在本地启动csharp文件夹下的back_local项目作为csharp后端
-- 在本地启动java文件夹下的serve项目作为java后端
-- 使用sql源文件在本地配置数据库
-- 将back_local项目和serve项目中的数据库连接串的用户名、密码、数据库名称改为本地数据库的实际信息
-- 在本地启动web项目作为Vue前端
-- 将web项目中的接口请求url的IP地址改为localhost，http/https以及端口号需要参照back_local项目和serve项目的启动配置
-- 若前端项目的接口响应解析存在错误，可能是返回数据的字段的首字母大小写在本地和分离部署时存在差异而导致的，修改出错部分的大小写即可
-
-### 分离部署
-
-- 在A机启动csharp文件夹下的back_server项目作为csharp后端，在Program.cs文件中为B机IP配置CORS网关
-- 在B机启动java文件夹下的serve项目作为java后端
-- 使用sql源文件在A机配置数据库，为B机创建一个角色user并给予足够权限
-- 将back_server项目中的数据库连接串的用户名、密码、数据库名称改为A机数据库的实际信息
-- 和serve项目中的数据库连接串的用户名、密码、数据库名称改为user的实际信息和A机的IP
-- 在B机启动web项目作为Vue前端
-- 将web项目中的csharp项目接口请求url的IP地址改为A机的IP，采用http；java项目接口请求url仍为localhost
-- 若前端项目的接口响应解析存在错误，可能是返回数据的字段的首字母大小写在本地和分离部署时存在差异而导致的，修改出错部分的大小写即可
-
-## 其他
-
-### OSS云存储
+## Frontend and Backend Connection
 
 <aside>
 
-  前端项目在使用OSS云存储时需要阿里云的云服务器账号，建议使用自己的云服务器账号并配置好防火墙
+  This project adopts a frontend-backend separation model. The frontend, backend, and database can be deployed locally on the same machine or on separate machines. The connection methods for different deployment setups vary accordingly.
 
 </aside>
-=======
 
+### Local Deployment
 
+- Start the `back_local` project in the `csharp` folder locally as the C# backend.
+- Start the `serve` project in the `java` folder locally as the Java backend.
+- Configure the database locally using the SQL source file.
+- Update the database connection strings in the `back_local` and `serve` projects with the actual local database username, password, and database name.
+- Start the `web` project locally as the Vue frontend.
+- Update the API request URLs in the `web` project to use `localhost` for the IP address. Ensure the HTTP/HTTPS protocol and port match the startup configurations of the `back_local` and `serve` projects.
+- If there are errors in parsing the API responses in the frontend project, it might be due to differences in the case sensitivity of the returned data fields between local and separate deployments. Adjust the casing of the problematic fields accordingly.
+
+### Separate Deployment
+
+- Start the `back_server` project in the `csharp` folder on Machine A as the C# backend. Configure the CORS gateway in the `Program.cs` file with the IP address of Machine B.
+- Start the `serve` project in the `java` folder on Machine B as the Java backend.
+- Configure the database on Machine A using the SQL source file. Create a `user` role on Machine A for Machine B and grant it sufficient permissions.
+- Update the database connection strings in the `back_server` project with the actual database username, password, and database name on Machine A.
+- Update the database connection strings in the `serve` project with the `user` credentials and the IP address of Machine A.
+- Start the `web` project on Machine B as the Vue frontend.
+- Update the API request URLs in the `web` project to use Machine A's IP address for the C# backend (using HTTP). The Java backend API request URLs can remain set to `localhost`.
+- If there are errors in parsing the API responses in the frontend project, it might be due to differences in the case sensitivity of the returned data fields between local and separate deployments. Adjust the casing of the problematic fields accordingly.
+
+## Additional Notes
+
+### OSS Cloud Storage
+
+<aside>
+
+  When using OSS cloud storage in the frontend project, an Alibaba Cloud account is required. It is recommended to use your own cloud server account and ensure the firewall is properly configured.
+
+</aside>
