@@ -1,7 +1,8 @@
 
 # ClassmateTrace
 
-Share and memorize moments with your classmates
+
+### Share and memorize moments with your classmates
 
 
 ## Presentation
