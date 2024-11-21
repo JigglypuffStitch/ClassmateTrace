@@ -1,7 +1,7 @@
 
 # ClassmateTrace
 
-Share moments with your classmates
+Share and memorize moments with your classmates
 
 # Deployment
 
