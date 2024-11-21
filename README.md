@@ -3,6 +3,28 @@
 
 Share and memorize moments with your classmates
 
+
+## Presentation
+![image](WEBImage/cf1a323ab549666103fcf98a4a2ea36.png)
+![image](WEBImage/c61fc212e28766a3b562399f877ccf0.png)
+### Click on the map to change your location.
+![image](WEBImage/b659cea53f9092ce2aae76712e62d34.png)
+![image](WEBImage/4c81860fabbea6d8aa42eab3bd672df.png)
+![image](WEBImage/846a1b3eafb3dfd2ee40ec6adf4bc51.png)
+![image](WEBImage/16a1021f065f94782a26843c5b93066.png)
+![image](WEBImage/fa62c7bdab36a29955d4091d3167cbf.png)
+### Click to "circle yourself" to add this photo to your personal homepage.
+![image](WEBImage/8970d1dbf1ac923b87b0f22d271579b.png)
+![image](WEBImage/5423390f10bdcee62a5dea244783e01.png)
+![image](WEBImage/75919072e3ff2b443e52ab15e149718.png)
+![image](WEBImage/b02e4c858f0c3ffca4c1852c88f35fa.png)
+### Uploaod meeting image(Albums are updated synchronously)
+![image](WEBImage/a4e239a1679650c5fae1962ce522291.png)
+### Classmate Moments
+![image](WEBImage/4ad39b30fb6658a6785291ae32e5c91.png)
+### Administrator
+![image](WEBImage/4ed64b86923ed7ac720eeaca406c786.png)
+
 # Deployment
 
 ## Database
@@ -78,23 +100,3 @@ Share and memorize moments with your classmates
 </aside>
 
 
-## Presentation
-![image](WEBImage/cf1a323ab549666103fcf98a4a2ea36.png)
-![image](WEBImage/c61fc212e28766a3b562399f877ccf0.png)
-### Click on the map to change your location.
-![image](WEBImage/b659cea53f9092ce2aae76712e62d34.png)
-![image](WEBImage/4c81860fabbea6d8aa42eab3bd672df.png)
-![image](WEBImage/846a1b3eafb3dfd2ee40ec6adf4bc51.png)
-![image](WEBImage/16a1021f065f94782a26843c5b93066.png)
-![image](WEBImage/fa62c7bdab36a29955d4091d3167cbf.png)
-### Click to "circle yourself" to add this photo to your personal homepage.
-![image](WEBImage/8970d1dbf1ac923b87b0f22d271579b.png)
-![image](WEBImage/5423390f10bdcee62a5dea244783e01.png)
-![image](WEBImage/75919072e3ff2b443e52ab15e149718.png)
-![image](WEBImage/b02e4c858f0c3ffca4c1852c88f35fa.png)
-### Uploaod meeting image(Albums are updated synchronously)
-![image](WEBImage/a4e239a1679650c5fae1962ce522291.png)
-### Classmate Moments
-![image](WEBImage/4ad39b30fb6658a6785291ae32e5c91.png)
-### Administrator
-![image](WEBImage/4ed64b86923ed7ac720eeaca406c786.png)
