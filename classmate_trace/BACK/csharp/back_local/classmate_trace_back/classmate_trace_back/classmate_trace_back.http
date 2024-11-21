@@ -1,0 +1,6 @@
+@classmate_trace_back_HostAddress = http://localhost:5243
+
+GET {{classmate_trace_back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

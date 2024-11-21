@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassmateTraceBack.Models.classes">
+    <Position X="3.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ClassmateTraceBack.Models.classes.ConnectionPC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.Picture" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.ClassComment" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.Class" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.Gathering" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.JoiningGathering" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.RePersonalComment" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.CreateGathering" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.Classmate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="ClassmateTraceBack.Models.classes.UnitInform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="ClassmateTraceBack.Models.classes.LoginStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.Memory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.UpdatePicture" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.ExitingGathering" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.Address" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.PersonalComment" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ClassmateTraceBack.Models.classes.UserInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\classes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\classes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.AddressService" Collapsed="true">
+    <Position X="6.5" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\AddressService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.AdminService" Collapsed="true">
+    <Position X="6.5" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AdminService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.ClassmateService" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClassmateService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.GatheringService" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAQAAgAEAAAAAAEAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Models\GatheringService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.LoginAndRegisterService" Collapsed="true">
+    <Position X="6.5" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LoginAndRegisterService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.MemoryService" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAQAAA=</HashCode>
+      <FileName>Models\MemoryService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.PersonalService" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PersonalService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.PictureService" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgIQAAAQAAICAAAAAAAAAAAEAAAAAEAIACAAAAAAAAA=</HashCode>
+      <FileName>Models\PictureService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.Home.ClassService">
+    <Position X="9.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAASAAAAAAAACAAAAAAAAAAABAAAAAkAAAAABAA=</HashCode>
+      <FileName>Models\Home\ClassService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.Home.CommentsService">
+    <Position X="9.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAIAgAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Home\CommentsService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Models.Home.MapService">
+    <Position X="9.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABEA=</HashCode>
+      <FileName>Models\Home\MapService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.AdminController" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.AlbumController" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAAAAAIAAAEACAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AlbumController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.ClassmateListController" Collapsed="true">
+    <Position X="0.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ClassmateListController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.GatheringController" Collapsed="true">
+    <Position X="0.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAQAACIAABAAAAEAAAAAAAAAAAAAQAAAAAgAAAAA=</HashCode>
+      <FileName>Controllers\GatheringController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.LoginController" Collapsed="true">
+    <Position X="0.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Controllers\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.MemoryController" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAACAA=</HashCode>
+      <FileName>Controllers\MemoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.PersonalController" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CEAIAQAABAAEQCAAAAAAIAAAAAAAAAAAAAAAAACAAAg=</HashCode>
+      <FileName>Controllers\PersonalController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.PictureController" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAABBAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Controllers\PictureController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.RegisterController" Collapsed="true">
+    <Position X="0.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\RegisterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.SettingController" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAQAAAAAAAAIAAAAAAAAAABAA=</HashCode>
+      <FileName>Controllers\SettingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.Home.ClassController" Collapsed="true">
+    <Position X="0.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Controllers\Home\ClassController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.Home.CommentsController" Collapsed="true">
+    <Position X="0.75" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAIAgAAAAAgAAAAAAAAQ=</HashCode>
+      <FileName>Controllers\Home\CommentsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassmateTraceBack.Controllers.Home.MapController" Collapsed="true">
+    <Position X="0.75" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>Controllers\Home\MapController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
